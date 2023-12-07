@@ -1,0 +1,15 @@
+[package]
+name = "cmd-exists"
+version = "0.1.0"
+edition = "2021"
+
+license = "MIT"
+repository = "https://github.com/splurf/cmd-exists"
+authors = ["Evan Schwartzentruber <evandotschwartzentruber@gmail.com>"]
+description = "Determine the existense of a command/program."
+keywords = ["command", "program", "exists", "check"]
+categories = ["accessibility"]
+
+[profile.release]
+strip = true
+lto = "thin"
